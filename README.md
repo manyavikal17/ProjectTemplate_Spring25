@@ -152,6 +152,7 @@ This project can run on most standard machines with Python installed. It does no
 ## Citations
 
 * Mushroom Classification Dataset*. UCI Machine Learning Repository.
+  
 Available on Kaggle: [https://www.kaggle.com/datasets/uciml/mushroom-classification](https://www.kaggle.com/datasets/uciml/mushroom-classification)
 * [scikit-learn](https://scikit-learn.org/stable/index.html#)
 
