@@ -35,7 +35,7 @@ Performance - My Random Forest model achieved 100% accuracy on the validation se
 * Dropped the veil-type column due to having only one unique value (no variance).
 * Replaced '?' values in the stalk-root feature with a new category labeled 'missing'.
 * Performed one-hot encoding on all categorical features to convert them into binary columns.
-* Mapped the target variable class to binary values: 'e' → 0 (edible), 'p' → 1 (poisonous).
+* Mapped the target variable class to binary values: 'e' - 0 (edible), 'p' - 1 (poisonous).
 
 #### Data Visualization
 
@@ -55,7 +55,7 @@ The stacked bar charts show that certain feature values are highly indicative of
 
 * Feature Importance
 
-Although this feature importance plot was generated after training the Random Forest model, it is included here as part of the data visualization process to highlight which features the model found most predictive. It complements earlier visual patterns—confirming, for instance, that features like odor_none, gill-size_b, and odor_foul are among the strongest indicators of mushroom toxicity. This helps validate the insights gained during exploratory analysis.
+Although this feature importance plot was generated after training the Random Forest model, it is included here as part of the data visualization process to highlight which features the model found most predictive. It complements earlier visual patterns which confirms features like odor_none, gill-size_b, and odor_foul are among the strongest indicators of mushroom toxicity. This helps validate the insights gained during exploratory analysis.
 
 ![feature_importance](https://github.com/user-attachments/assets/2216b9b3-fa46-42fd-968c-13bf20fe909c)
 
@@ -64,7 +64,7 @@ Although this feature importance plot was generated after training the Random Fo
 
 * Define:
   * Input: One-hot encoded categorical features describing physical attributes of mushrooms.
-  * Output: Binary classification label — '0' for edible and '1' for poisonous mushrooms.
+  * Output: Binary classification label - '0' for edible and '1' for poisonous mushrooms.
 * Models
   * Random Forest Classifier:
     I started with Random Forest because it performs well with categorical data and captures complex patterns. It also provides feature importance, which helps explain model decisions.
