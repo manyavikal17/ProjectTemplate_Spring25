@@ -8,7 +8,7 @@ This repository holds an attempt to apply machine learning models to classify mu
 
 This project tackles the Mushroom Classification problem using data from the Kaggle challenge, which involves predicting whether a mushroom is edible or poisonous based on its physical attributes. The dataset contains over 8,000 entries with 22 categorical features. 
 
-My Approach - I approached this as a binary classification problem using machine learning models such as Random Forest Classifier and Logistic Regression. I performed exploratory data analysis, cleaned and one-hot encoded the data, and visualized key feature distributions to guide model development.
+I approached this as a binary classification problem using machine learning models such as Random Forest Classifier and Logistic Regression. I performed exploratory data analysis, cleaned and one-hot encoded the data, and visualized key feature distributions to guide model development.
 
 Performance - My Random Forest model achieved 100% accuracy on the validation set, while Logistic Regression provided a more generalizable alternative. Throughout the project, I focused on clear preprocessing, thoughtful feature analysis, and model evaluation.
 
