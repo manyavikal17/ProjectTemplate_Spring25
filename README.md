@@ -2,7 +2,7 @@
 
 # Mushroom Classification Project
 
-This repository holds an attempt to apply machine learning models to classify mushrooms as edible or poisonous using data from the Kaggle website. [Mushroom Classification](https://www.kaggle.com/datasets/uciml/mushroom-classification)
+This repository holds an attempt to apply machine learning models to classify mushrooms as edible or poisonous using data from Kaggle. [Mushroom Classification](https://www.kaggle.com/datasets/uciml/mushroom-classification)
 
 ## Overview
 
