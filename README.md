@@ -87,10 +87,10 @@ Although this feature importance plot was generated after training the Random Fo
   
 * Results Summary:
   
-|  Model  | Accuracy | Precision | Recall | F1-Score |
-| ------- | -------- | --------- | ------ | -------- |
-| Random Forest Classifier  |  100%  | 1.00 | 1.00 | 1.00 |
-| Logistic Regression | 99.75% | 1.00 | 1.00 | 1.00 | 1.00 |
+|  Model  | Accuracy | 
+| ------- | -------- | 
+| Random Forest Classifier  | 100% |
+| Logistic Regression | 99.75% |
 
 
 
