@@ -71,7 +71,7 @@ Although this feature importance plot was generated after training the Random Fo
   * Logistic Regression:
     I used Logistic Regression as a simple and interpretable baseline model. Unlike more complex models, it is less prone to overfitting and helps evaluate whether a linear approach can effectively separate edible and poisonous mushrooms.
   * Hyperparameters:
-    * Random FOrest CLassifier : `random_state=42`
+    * Random Forest Classifier : `random_state=42`
     * Logistic Regression : `max_iter=1000` to ensure convergence, `random_state=42`
 
 ### Training
@@ -112,10 +112,10 @@ Although this feature importance plot was generated after training the Random Fo
   
 ### Future Work
 
-* Try tuning basic hyperparameters like the number of trees in Random Forest or regularization strength in Logistic Regression.
-* Test the model on noisy or incomplete data to see how well it handles real-world imperfections.
-* Extend the project by introducing additional mushroom-related datasets or images for multi-modal classification.
-* Investigate model explainability using SHAP or LIME to better understand why the model makes certain predictions.
+* Try tuning basic hyperparameters like the number of trees in Random Forest or regularization strength in Logistic Regression to improve model performance.
+* Experiment with other decision tree-based models such as Gradient Boosting, XGBoost, or LightGBM to compare performance and generalization.
+* Test the model on noisy or incomplete data to evaluate robustness in more realistic scenarios.
+  
 
 ## How to reproduce results
 
