@@ -8,8 +8,7 @@ This repository holds an attempt to apply machine learning models to classify mu
 
 This project classifies mushrooms as edible or poisonous using their physical attributes. Each entry describes a mushroom through 22 categorical features such as odor, cap shape, etc, with the target variable indicating edibility. The project frames this as a binary classification task. All categorical features were one-hot encoded, and the target was label-encoded. The dataset was split into training (60%), validation (20%), and test (20%) subsets. 
 
-I trained both a Random Forest and Logistic Regression model, with Random Forest achieving 100% accuracy on the validation set. Through visualizations and model insights, I noticed that a few features,especially odor and gill-size, almost perfectly separate edible from poisonous mushrooms. This led to the realization that, despite the real-world risk, the task is trivial for machine learning due to the presence of such strong, clear signals in the data.
-
+I trained both a Random Forest and Logistic Regression model, with Random Forest achieving 100% accuracy on the validation set. Through visualizations and model insights, I noticed that a few features,especially odor and gill-size, almost perfectly separate edible from poisonous mushrooms. This led to the realization that the task is trivial for machine learning due to the presence of a few highly informative features in the data.
 
 ## Summary of Workdone
 
