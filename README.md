@@ -37,25 +37,31 @@ I trained both a Random Forest and Logistic Regression model, with Random Forest
 
 * **Target Class Distribution**
   
-The bar plot of the target variable (class) shows that the dataset is fairly balanced, with 51.8% edible mushrooms and 48.2% poisonous ones. This balance is important because it means the model won’t be biased toward predicting one class more often than the other, and accuracy will be a reliable evaluation metric.
+  The bar plot of the target variable (class) shows that the dataset is fairly balanced, with 51.8% edible mushrooms and 48.2% poisonous ones. This balance is important because it means the model won’t be biased 
+  toward predicting one class more often than the other, and accuracy will be a reliable evaluation metric.
   
-![Screenshot 2025-05-01 111131](https://github.com/user-attachments/assets/7b886872-33ca-4d6a-b4ec-d05a76bb8be2)
+  ![Screenshot 2025-05-01 111131](https://github.com/user-attachments/assets/7b886872-33ca-4d6a-b4ec-d05a76bb8be2)
 
 
 * **Feature Distribution by Class**
 
-The stacked bar charts show that certain feature values are highly indicative of mushroom toxicity. For example, in the odor feature, n (none) and l (anise) are almost entirely associated with edible mushrooms, while f (foul) and y (fishy) are strongly linked to poisonous ones. 
+  Based on the normalized stacked bar plots, we observe that the following features show clear patterns in relation to mushroom edibility:
+  * Odor : `n`(none) and `l` (anise) are strongly associated with edible mushrooms, while `f` (foul) is highly indicative of poisonous mushrooms.
+  * Gill-size: Mushrooms with `b` (broad) gills are mostly edible, while `n` (narrow) gills are linked to poisonous ones.
+  * Bruises - The presence of bruises (`t`) is more common in edible mushrooms, while their absence (`f`) appears more in poisonous ones.
+  * Spore-print-color: `k` and `n` are mostly found in edible mushrooms, whereas `w`  and `h` is seen more in poisonous mushrooms.
 
-This clear separation highlights odor, along with features like gill-size and bruises, as strong predictors for classification.
+  These distinct patterns suggest that features like odor, gill-size, and bruises carry strong predictive signals for classifying mushrooms.
+  ![top_features (2)](https://github.com/user-attachments/assets/a5cd9ba8-3462-4485-a25b-3b2b5232e5d4)
 
-![top_features (2)](https://github.com/user-attachments/assets/a5cd9ba8-3462-4485-a25b-3b2b5232e5d4)
 
+* **Feature Importance**
 
-* Feature Importance
+  Although this feature importance plot was generated after training the Random Forest model, it is included here as part of the data visualization process to highlight which features the model found most 
+  predictive. It complements earlier visual patterns which confirms features like `odor_none`, `gill-size_b`, and `odor_foul` are among the strongest indicators of mushroom toxicity. This helps validate the 
+  insights gained during exploratory analysis.
 
-Although this feature importance plot was generated after training the Random Forest model, it is included here as part of the data visualization process to highlight which features the model found most predictive. It complements earlier visual patterns which confirms features like `odor_none`, `gill-size_b`, and `odor_foul` are among the strongest indicators of mushroom toxicity. This helps validate the insights gained during exploratory analysis.
-
-![feature_importance](https://github.com/user-attachments/assets/2216b9b3-fa46-42fd-968c-13bf20fe909c)
+  ![feature_importance](https://github.com/user-attachments/assets/2216b9b3-fa46-42fd-968c-13bf20fe909c)
 
 
 ### Problem Formulation
