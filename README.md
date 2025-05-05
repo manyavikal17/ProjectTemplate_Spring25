@@ -104,7 +104,7 @@ Although this feature importance plot was generated after training the Random Fo
 ### Conclusions
 
 * Both models performed extremely well, with Random Forest achieving 100% accuracy and Logistic Regression closely behind at 99.75%.
-* Features like `odor`, `gill-size`, and `bruises` were the most influential in predicting edibility.
+* Features like `odor`, `gill-size`, and `spore-print-color` were the most influential in predicting edibility.
 * While Random Forest performed perfectly, Logistic Regression offers strong performance with less risk of overfitting.
 
   
