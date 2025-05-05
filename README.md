@@ -31,7 +31,7 @@ I trained both a Random Forest and Logistic Regression model, with Random Forest
 * Dropped the veil-type column due to having only one unique value (no variance).
 * Replaced '?' values in the stalk-root feature with a new category labeled 'missing'.
 * Performed one-hot encoding on all categorical features to convert them into binary columns.
-* Mapped the target variable class to binary values: 'e' - 0 (edible), 'p' - 1 (poisonous).
+* Mapped the target variable class to binary values: 'e' - `'0'` (edible), 'p' - `'1'` (poisonous).
 
 #### Data Visualization
 
