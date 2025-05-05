@@ -35,14 +35,14 @@ This project classifies mushrooms as edible or poisonous using their physical at
 
 #### Data Visualization
 
-* Target Class Distribution
+* **Target Class Distribution**
   
 The bar plot of the target variable (class) shows that the dataset is fairly balanced, with 51.8% edible mushrooms and 48.2% poisonous ones. This balance is important because it means the model won’t be biased toward predicting one class more often than the other, and accuracy will be a reliable evaluation metric.
   
 ![Screenshot 2025-05-01 111131](https://github.com/user-attachments/assets/7b886872-33ca-4d6a-b4ec-d05a76bb8be2)
 
 
-* Feature Distribution by Class
+* **Feature Distribution by Class**
 
 The stacked bar charts show that certain feature values are highly indicative of mushroom toxicity. For example, in the odor feature, n (none) and l (anise) are almost entirely associated with edible mushrooms, while f (foul) and y (fishy) are strongly linked to poisonous ones. This clear separation highlights odor, along with features like gill-size and bruises, as strong predictors for classification.
 
