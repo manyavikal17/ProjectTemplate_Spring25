@@ -6,9 +6,11 @@ This repository holds an attempt to apply machine learning models to classify mu
 
 ## Overview
 
-This project classifies mushrooms as edible or poisonous using their physical attributes. Each entry describes a mushroom through 22 categorical features such as odor, cap shape, gill size, and bruises, with the target variable indicating edibility. The project frames this as a binary classification task. The data was cleaned by removing a non-informative feature (`veil-type`) and replacing unknown values in `stalk-root`. All categorical features were one-hot encoded, and the target was label-encoded. The dataset was split into training (60%), validation (20%), and test (20%) subsets. 
+This project classifies mushrooms as edible or poisonous using their physical attributes. Each entry describes a mushroom through 22 categorical features such as odor, cap shape, etc, with the target variable indicating edibility. The project frames this as a binary classification task. All categorical features were one-hot encoded, and the target was label-encoded. The dataset was split into training (60%), validation (20%), and test (20%) subsets. 
 
-I trained a Random Forest Classifier and a Logistic Regression model, both of which performed exceptionally well—Random Forest reached 100% validation accuracy. As I visualized the data and inspected the model's decisions, I realized that some features, like odor and gill-size, clearly separate edible from poisonous mushrooms. This led me to the surprising but insightful conclusion: despite the biological stakes, this classification problem is practically trivial for machine learning due to the strong signals in just a few features.
+I trained both a Random Forest and Logistic Regression model, with Random Forest achieving 100% accuracy on the validation set. Through visualizations and model insights, I noticed that a few features,especially odor and gill-size, almost perfectly separate edible from poisonous mushrooms. This led to the realization that, despite the real-world risk, the task is trivial for machine learning due to the presence of such strong, clear signals in the data.
+
+
 ## Summary of Workdone
 
 
