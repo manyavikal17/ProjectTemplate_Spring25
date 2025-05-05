@@ -111,7 +111,8 @@ I trained both a Random Forest and Logistic Regression model, with Random Forest
 
 * Both models performed extremely well, with Random Forest achieving 100% accuracy and Logistic Regression closely behind at 99.75%.
 * Features like `odor`, `gill-size`, and `spore-print-color` were the most influential in predicting edibility.
-* While Random Forest performed perfectly, Logistic Regression offers strong performance with less risk of overfitting.
+* This led to a key insight: Despite its real-world significance, the problem is trivial for machine learning due to the presence of a few very strong signals in the data.
+* What began as a safety-focused classification task ended as a clear example of how even simple models can succeed when the data is this well-structured.
 
   
 ### Future Work
