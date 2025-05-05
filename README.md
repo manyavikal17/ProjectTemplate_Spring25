@@ -44,7 +44,9 @@ The bar plot of the target variable (class) shows that the dataset is fairly bal
 
 * **Feature Distribution by Class**
 
-The stacked bar charts show that certain feature values are highly indicative of mushroom toxicity. For example, in the odor feature, n (none) and l (anise) are almost entirely associated with edible mushrooms, while f (foul) and y (fishy) are strongly linked to poisonous ones. This clear separation highlights odor, along with features like gill-size and bruises, as strong predictors for classification.
+The stacked bar charts show that certain feature values are highly indicative of mushroom toxicity. For example, in the odor feature, n (none) and l (anise) are almost entirely associated with edible mushrooms, while f (foul) and y (fishy) are strongly linked to poisonous ones. 
+
+This clear separation highlights odor, along with features like gill-size and bruises, as strong predictors for classification.
 
 ![top_features (2)](https://github.com/user-attachments/assets/a5cd9ba8-3462-4485-a25b-3b2b5232e5d4)
 
